@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title> Bloop, Bleep, Dot Click </title>                
+   </head>
+   <body>
+      <header>
+      </header>
+      
+      <div id="container">
+         <div id="content">
+               <p>
+                  <button onclick="playPulse(174.6, 'sine')">Bloop</button>
+                  <button onclick="playPulse(261.6, 'square')">Bleep</button>
+                  <button onclick="playPulse(1109, 'sawtooth')">Click</button>
+                  <button onclick="playPulse(87.31, 'triangle')">Bump</button>
+               </p>
+            <div>
+               <canvas class="visualizer" id="myCanvas" width="640" height="480"></canvas>
+            </div>
+         </div>
+      </div> 
+
+      <script src="./js/bloopbleep.js"></script>
+
+      <footer>
+      </footer>
+   </body>
+</html>
